@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+body, html {
+	margin: 0;
+	padding: 0;
+	background-color: #f1f3f6;
+	font-family: 'Roboto', sans-serif;
+}
+
+.page-wrapper {
+	padding-top: 50px;
+}
+
+.payment-wrapper {
+	background-color: #ffffff;
+	border-radius: 6px;
+}
+
+.container {
+	width: 1170px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin: 0 auto;
+}
+
+.col-9, .col-3 {
+	float: left;
+	display: inline-block;
+	padding: 0 15px;
+	box-sizing: border-box;
+}
+
+.col-9 {
+	width:75%;
+}
+
+.col-3 {	
+	width: 25%;
+}
+
+.clearfix {
+	clear: both;
+}
+
+.payment-options-title {
+	background-color: #3576e7;
+	color: #ffffff;
+	padding: 16px;
+	border-radius: 6px 6px 0 0;
+}
+
+.payment-options-tab {
+	padding: 16px;
+	cursor: pointer;
+}
+
+.payment-options-item {
+	border-bottom: 1px solid #c1c1c1;
+}
+
+.payment-options-item:last-child {
+	border-bottom: none;
+}
+
+.payment-options-tab:hover, .payment-options-item.activeTab .payment-options-tab , .payment-options-item.activeTab .payment-options-content {
+	background: #f6faff;
+} 
+
+.payment-options-tab.disabled {
+	pointer-events: none;
+	color: #c1c1c1;
+}
+
+.payment-options-content {
+	padding: 16px;
+	display: none;
+}
+
+.price-details {
+	background-color: #ffffff;
+	border-radius: 6px;
+}
+
+.price-details-title {
+	padding: 16px;
+	color: #ababab;
+	border-bottom: 1px solid #c1c1c1;
+}
+
+.offers {
+	background-color: #ffffff;
+	margin-top: 30px;
+	border-radius: 6px;
+}
+
+.offers-title {
+	padding: 16px;
+	color: #ababab;
+	border-bottom: 1px solid #c1c1c1;
+}
+
+#bank-offers {
+	display: none;
+}
+
+.price-details-content {
+	padding: 16px;
+}
+
+.price-details-row > div {
+	display: inline-block;
+	padding: 8px 0;
+}
+
+.price-details-row > div:nth-child(2) {
+	float: right;
+}
+
+.amount-payable {
+	border-top: 1px dashed #ccc;
+}
+
+.offers-content > div {
+	border-bottom: 1px solid #c1c1c1;
+	padding: 16px;
+	font-size: 12px;
+}
+
+.offers-content > div:last-child {
+	border-bottom: none;
+}
+
+.pay-btn {
+	padding: 8px 16px;
+	border-radius: 4px;
+	background-color: #ea6d35;
+	color: #ffffff;
+	margin: 20px;
+	text-decoration: none;
+	display: inline-block;
+}

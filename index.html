@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Flipkart UI Test</title>
+	<link rel="stylesheet" type="text/css" href="paymentComponent.css">
+</head>
+<body>
+	<div id="component_wrapper"></div>
+</body>
+	<script type="text/javascript" src="paymentComponent.js"></script>
+	<script type="text/javascript">
+		paymentComponent.initialize({
+			price: 20000,
+			quantity: 3,
+			cod_eligible: false,
+			component_id: "component_wrapper"
+		});
+	</script>
+</html>
